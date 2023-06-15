@@ -4,7 +4,7 @@
  * main - print exactly "and that pieceof art is useful"
  * - Dora Korpar, 2019-1019",
  * followed  by new line then standard error.
- * @return : 1 for standard error.
+ * Return : 1 for standard error.
  */
 
 int main(void)
