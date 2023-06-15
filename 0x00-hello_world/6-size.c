@@ -1,8 +1,8 @@
 #include <stdio.h>
 
-/*
- * main - checks and print size of various types.
- * return : 0 for success.
+/**
+ * main - checks and print size of various types and size of each.
+ * Return: 0 (success).
  */
 
 
