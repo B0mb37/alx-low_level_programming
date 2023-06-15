@@ -1,8 +1,8 @@
 #include <stdio.h>
 
 /*
- * main -  returna quote
- * return - 1, standard error
+ * main -  returna quote.
+ * return : 1 for standard error.
  */
 
 int main(void)
