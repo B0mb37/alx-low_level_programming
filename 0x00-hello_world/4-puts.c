@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - prints sring using put. 
+ * main - prints sring using put.
  * Return: 0 (sucsess).
  */
 
