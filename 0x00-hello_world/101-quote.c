@@ -1,12 +1,12 @@
 #include <stdio.h>
 
 /*
- * main returna quote
- * return returns 1, standard error
+ * main -  returna quote
+ * return - 1, standard error
  */
 
 int main(void)
 {
-	printf("and that piec of art is useful\" - Dora Orpar, 2015-10-19\n");
+	printf("and that piece of art is useful\" - Dora Orpar, 2015-10-19\n");
 	return (1);
 }

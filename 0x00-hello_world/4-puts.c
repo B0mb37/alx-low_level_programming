@@ -1,7 +1,8 @@
 #include <stdio.h>
 
 /*
- * main - prints sring using put and retursn zero, sucsess
+ * main - prints sring using put, 
+ * retursns - 0 for sucsess
  */
 
 int main(void)

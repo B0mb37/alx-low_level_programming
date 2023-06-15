@@ -1,7 +1,8 @@
 #include <stdio.h>
 
 /*
- * main checks and prints size of various types
+ * main - checks and print size of various types
+ * return 0 - success
  */
 
 
@@ -22,4 +23,3 @@ int main(void)
 #endif
 	return (0);
 }
-	
