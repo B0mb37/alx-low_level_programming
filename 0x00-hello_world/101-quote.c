@@ -1,8 +1,9 @@
 #include <stdio.h>
 
 /*
- * main - 101_quote.
- * @printf: Print format.
+ * main - print exactly "and that pieceof art is useful"
+ * - Dora Korpar, 2019-1019",
+ * folowed  by new line then standard error
  * @return : 1 for standard error.
  */
 
