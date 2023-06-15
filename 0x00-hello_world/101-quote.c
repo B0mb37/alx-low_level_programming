@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /*
- * main -  returna quote.
+ * main -  101_quote.
  * return : 1 for standard error.
  */
 
