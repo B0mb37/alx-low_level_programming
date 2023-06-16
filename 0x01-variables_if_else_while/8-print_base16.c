@@ -12,20 +12,15 @@ int main(void)
 	int i;
 	char j;
        
-	i = 48;
-	while (i < 58)
+	for (i = 0; i < 10; i++)
 	{
-		putchar(i);
-		i++;
+		putchar((num % 10) + '0');
 	}
-
-	j = 'a';
-	while (j <= 'f')
+	for (j = 'a'; j <= 'f'; j++)
 	{
-		putchar(j);;
-		j++;
+		putchar(j);
 	}
-	putchar("\n");
+	putchar('\n');
 	
 	return (0);
 }	
