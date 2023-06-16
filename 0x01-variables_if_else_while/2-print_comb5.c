@@ -15,6 +15,7 @@ int mai(void)
 		{
 			int k = j + 1;
 			int l = i;
+
 			for (; l < 58; l++)
 			{
 				putchar(i);
