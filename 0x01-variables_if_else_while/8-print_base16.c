@@ -3,24 +3,27 @@
 #include <stdlib.h>
 
 /**
- * main - prints all base 16 numbers in lowercase
+ * main - prints all base 16 numbers in lowercase.
  * Return: 0 (sucess)
  */
 
 int main(void)
 {
-	int i = 48;
+	int i;
+	char j;
+       
+	i = 48;
 	while (i < 58)
 	{
 		putchar(i);
 		i++;
 	}
 
-	int l = 'a';
-	while (l <= 'f')
+	j = 'a';
+	while (j <= 'f')
 	{
-		putchar(l);;
-		l++;
+		putchar(j);;
+		j++;
 	}
 	putchar("\n");
 	

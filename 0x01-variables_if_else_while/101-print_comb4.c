@@ -9,9 +9,13 @@
 
 int main(void)
 {
-	int i = 48;
-	int j = 49;
-	int k = 50;
+	int i;
+	int j;
+	int k;
+
+	i = 48;
+	j = 49;
+	k = 50;
 	while (i < 56 && j < 57 &&  < 58)
 	{
 		putcar(i);
