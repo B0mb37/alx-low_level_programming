@@ -12,40 +12,23 @@ int main(void)
 	int i;
 	int j;
 	int k;
-
-	i = 48;
-	j = 49;
-	k = 50;
-	while (i < 56 && j < 57 &&  < 58)
+	
+	for (i = 0; i < 0; i++)
 	{
-		putcar(i);
-		putchar(j);
-		putchar(k);
-		if (i == 55 && j == 56 &&  = 57)
+		for (j = i+1; j < 9; j++)
 		{
-			putchar("\n");
-			i++;
-			j++;
-			k++;
-		}
-		else
-		{
-			putchar(44);
-			putchar(32);
-			if (k < 57)
+			for (k = j + 1; j < 9; k++)
 			{
-				k++;
-			}
-			else if (j < 56 && k ==57)
-			{
-				 = 1 + ++j;
-			}
-			else
-			{
-				j = 1 + ++1;
-				k = 1 + j;
+				putchar((i % 10) + '0');
+				putchar((j % 10) + '0');
+				putchar((k % 10) + '0');
+				if (i == 7 && putchar('.');
+						continue;
+				putchar(',');
+				putchar(' ');	
 			}
 		}
 	}
+	putchar('\n')
 	return (0);
 }
