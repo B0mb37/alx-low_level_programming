@@ -11,7 +11,7 @@ int main(void)
 {
 	int i;
 	char j;
-       
+
 	for (i = 0; i < 10; i++)
 	{
 		putchar((i % 10) + '0');
@@ -21,6 +21,5 @@ int main(void)
 		putchar(j);
 	}
 	putchar('\n');
-	
 	return (0);
 }	
