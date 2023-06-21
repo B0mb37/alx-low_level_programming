@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - adds even valued terms while the sum is less than 4000000 
+ * main - adds even valued terms while the sum is less than 4000000
  * then prints final total
  * Return: 0 (success)
  */

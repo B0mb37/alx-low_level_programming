@@ -2,7 +2,7 @@
 
 /**
  * print_alphabet_x10 - calls _putchar in for loop to print all
- *  lowercase alphabet letters inside 
+ *  lowercase alphabet letters inside
  *  another for lop to print them ten times
  * Return: 0 (succss)
  */

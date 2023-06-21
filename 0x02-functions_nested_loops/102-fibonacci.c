@@ -8,11 +8,11 @@
 int main(void)
 {
 	int i, temp;
-	unsigned long long int a = 1, b = 2;
+	unsigned long int a = 1, b = 2;
 
 	for (i = 2; i <= 50; i++)
 	{
-		printf("%d, ", a);
+		printf("%ld, ", a);
 		temp = a;
 		a = b;
 		b = temp + b;
