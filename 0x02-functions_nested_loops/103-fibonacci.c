@@ -8,7 +8,7 @@
 
 int main(void)
 {
-	long int total, sum, i, j;
+	unsigned long int total, sum, i, j;
 
 	total = 0;
 	sum = 0;
@@ -26,7 +26,7 @@ int main(void)
 		j = sum;
 	}
 
-	printf("%li\n", total);
+	printf("%ld\n", total);
 
 	return (0);
 }
