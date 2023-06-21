@@ -7,13 +7,12 @@
 
 int main(void)
 {
-	int a = 1;
-	int b = 2;
+	unsigned long long nt a = 1, b = 2;
 	int i, temp;
 
 	for (i = 2; i <= 98; i++)
 	{
-		printf("%d, ", a);
+		printf("%lld, ", a);
 		temp = a;
 		a = b;
 		b = temp + b;
