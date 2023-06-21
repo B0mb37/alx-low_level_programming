@@ -13,7 +13,7 @@ int main(void)
 
 	for (i = 2; i <= 98; i++)
 	{
-		print("li, ", a);
+		printf("li, ", a);
 		temp = a;
 		a = b;
 		b = temp + a;
