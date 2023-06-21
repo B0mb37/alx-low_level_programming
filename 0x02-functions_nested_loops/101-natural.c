@@ -1,4 +1,4 @@
-#include <stdlib.h>
+#include <stdio.h>
 
 /**
  * main - prints the sum of multiples of 3 or 5 below 1024 but more than 0
@@ -17,7 +17,7 @@ int main(void)
 			sum = sum + i;
 		}
 	}
-	prints("%d\n", sum);
+	printf("%d\n", sum);
 
 	return (0);
 }

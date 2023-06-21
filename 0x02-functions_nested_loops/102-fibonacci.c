@@ -8,8 +8,7 @@
 int main(void)
 {
 	int i, temp;
-	int a = 1;
-	int b = 2;
+	unsigned long long int a = 1, b = 2;
 
 	for (i = 2; i <= 50; i++)
 	{

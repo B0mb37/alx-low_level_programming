@@ -3,6 +3,7 @@
 
 /**
  * _islower - CHecks if character passsed into it is lowercase or not
+ * @c: single letter int passed into function
  * Return: 1 (is lowercase), 2 (is not lowercase)
  */
 

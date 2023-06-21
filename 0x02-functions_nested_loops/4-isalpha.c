@@ -1,7 +1,9 @@
 #include "main.h"
 
 /**
- * _isalpha - Checks if int passe into it is of a alpha character or not
+ * _isalpha - Checks if int passe into it is of a 
+ * alpha character or not
+ * @c: letter input as integer
  * Return: 0 (is not alpha) 1 (is alpha)
  */
 

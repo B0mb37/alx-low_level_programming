@@ -1,8 +1,12 @@
 #include "main.h"
 
 /**
- * print_sign - checks if int passed into it is positive or negative, returning the sign depending on answer
- * Return: -1 (number is negative), 0 (number is zero), 1 (number is positive)
+ * print_sign - checks if int passed into it is positive or negative,
+ *  returning the sign depending on answer
+ *  @n: number passed int function
+ * Return: -1 (number is negative), 
+ * 0 (number is zero), 
+ * 1 (number is positive)
  */
 
 
