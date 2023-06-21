@@ -7,7 +7,7 @@
 
 int main(void)
 {
-	long nt a = 1, b = 2;
+	long int a = 1, b = 2;
 	int i, temp;
 
 	for (i = 2; i <= 98; i++)
