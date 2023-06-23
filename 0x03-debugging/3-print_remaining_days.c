@@ -22,7 +22,8 @@ void print_remaining_days(int month, int day, int year)
 		}
 		else
 		{
-			printf("Invalid date: %02d/%02d/%04d/", month, day, year);
+			printf("Day of year: %d\n", day);
+			printf("Remaining days: %d\n", 366 - day);
 		}
 	}
 	else
