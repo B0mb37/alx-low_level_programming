@@ -11,12 +11,12 @@ void print_number(int n)
 
 	if (n < 0)
 	{
-		_putchar("-");
+		_putchar('-');
 		n = -n;
 	}
 	else if (n == 0)
 	{
-		_putchar("0");
+		_putchar('0');
 	}
 
 	while (n > 0)
