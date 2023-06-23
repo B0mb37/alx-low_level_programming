@@ -2,7 +2,7 @@
 #include <math.h>
 
 /**
- * main - prints largest prime factor of number
+ * main - finds then prints largest prime factor of 61285475143
  * Return: Always  0 (success)
  */
 
