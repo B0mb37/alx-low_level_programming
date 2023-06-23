@@ -8,7 +8,7 @@
 
 int prime_factor(void)
 {
-	long int i, number, max_price;
+	long int i, number, max_prime;
 
 	number = 612852475143;
 
