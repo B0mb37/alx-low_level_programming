@@ -9,8 +9,8 @@
 int main(void)
 {
 	long int i;
-       	long int number;
-       	long int max_prime;
+	long int number;
+	long int max_prime;
 
 	number = 612852475143;
 	max_prime = -1;
