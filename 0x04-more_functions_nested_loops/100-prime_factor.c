@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <math.h>
 
 /**
  * main - prints largest prime factor of number
@@ -7,7 +8,9 @@
 
 int main(void)
 {
-	long int i, number, max_prime;
+	long int i;
+       	long int number;
+       	long int max_prime;
 
 	number = 612852475143;
 	max_prime = -1;
@@ -18,7 +21,7 @@ int main(void)
 		number /= 2;
 	}
 
-	for (i = 3; i * i <= number; i += 2)
+	for (i = 3; i <= sqrt(number); i += 2)
 	{
 		while (number % i == 0)
 		{
@@ -32,7 +35,7 @@ int main(void)
 		max_prie = number;
 	}
 
-	printf("%ld", max_prime);
+	printf("%ld\n", max_prime);
 
 	return (0);
 }
