@@ -1,12 +1,11 @@
 #include <stdio.h>
-#include <math.h>
 
 /**
  * main - prints largest prime factor of number
  * Return: 0 (success)
  */
 
-int prime_factor(void)
+int main(void)
 {
 	long int i, number, max_prime;
 
@@ -19,7 +18,7 @@ int prime_factor(void)
 		number /= 2;
 	}
 
-	for (i = 3; i <= sqrt(numbe)r; i += 2)
+	for (i = 3; i * i <= number; i += 2)
 	{
 		while (number % i == 0)
 		{

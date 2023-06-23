@@ -13,7 +13,6 @@ void print_diagonal(int n);
 void print_square(int size);
 void fizz_buzz_print(void);
 void print_triangle(int size);
-int prime_factor(void);
 void print_number(int n);
 
 #endif
