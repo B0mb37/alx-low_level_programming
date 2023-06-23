@@ -4,6 +4,7 @@
  * main - print all the numbers between 1 and 100
  * replace multiples of 3 with Fizz and those of 5 with Buzz
  * multiples of both replace with FizzBuzz
+ * Return: 0 (successful)
  */
 
 int main(void)
@@ -14,15 +15,15 @@ int main(void)
 	{
 		if (i % 3 == 0 && i % 5 != 0)
 		{
-			printf(" Fizz");
+			printf("Fizz ");
 		}
 		else if (i % 5 == 0 && i % 3 != 0)
 		{
-			printf(" Buzz");
+			printf("Buzz ");
 		}
 		else if (i % 5 == 0 && i % 3 == 0)
 		{
-			printf(" FizzBuzz");
+			printf("FizzBuzz ");
 		}
 		else
 		{
