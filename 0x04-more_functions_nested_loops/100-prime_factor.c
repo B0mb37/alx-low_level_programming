@@ -8,7 +8,7 @@
 
 int prime_factor(void)
 {
-	long long i, number;
+	long int i, number;
 
 	number = 612852475143;
 
@@ -32,7 +32,7 @@ int prime_factor(void)
 		max_prie = number;
 	}
 
-	printf("%lld", max_prime);
+	printf("%ld", max_prime);
 
 	return (0);
 }

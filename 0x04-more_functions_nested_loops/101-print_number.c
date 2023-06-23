@@ -30,5 +30,4 @@ void print_number(int n)
 		_putchar(rev_num % 10 + '0');
 		rev_num /= 10;
 	}
-	return (0);
 }
