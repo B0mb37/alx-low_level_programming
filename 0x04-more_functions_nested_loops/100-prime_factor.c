@@ -13,7 +13,7 @@ int main(void)
 	long int max_prime;
 
 	number = 612852475143;
-	max_prime = -1;
+	max_prime = 1;
 
 	while (number % 2 == 0)
 	{
@@ -32,7 +32,7 @@ int main(void)
 
 	if (number > 0)
 	{
-		max_prie = number;
+		max_prime = number;
 	}
 
 	printf("%ld\n", max_prime);
