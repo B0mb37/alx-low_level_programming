@@ -7,17 +7,20 @@
 
 void more_numbers(void)
 {
-	int i, j;
-	char c;
+	int i, j, ones, tens;
 
 	for (i = 0; i < 10; i++)
 	{
-		for (j = 1; j < 15; j++)
+		for (j = 0; j < 15; j++)
 		{
-			c = j + '0';
-			_putchar(c);
+			ones = j % 10;
+			tens = j / 10;
+			if (j > 9)
+			{
+				_putchar(tens + '0');
+			}
+			_putchar(ones + '0');
 		}
 		_putchar('\n');
 	}
-	_putchar('\n');
 }
