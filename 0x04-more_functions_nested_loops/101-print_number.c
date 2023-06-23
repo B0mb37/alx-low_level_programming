@@ -7,27 +7,22 @@
 
 void print_number(int n)
 {
-	int rev_num;
+	unsigned int m;
 
 	if (n < 0)
 	{
 		_putchar('-');
-		n = -n;
+		m = -n;
 	}
-	else if (n == 0)
+	else
 	{
-		_putchar('0');
+		m = n;
 	}
 
-	while (n > 0)
+	if (n / 10)
 	{
-		rev_num = rev_num * 10 + (n % 10);
-		n /= 10;
+		print_number(m / 10);
 	}
 
-	while (rev_num > 0)
-	{
-		_putchar(rev_num % 10 + '0');
-		rev_num /= 10;
-	}
+	_putchar((m % 10) + '0');
 }
