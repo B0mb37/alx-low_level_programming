@@ -6,7 +6,7 @@
  * @str: value passed into func above
  */
 
-void puts2(charr *str)
+void puts2(char *str)
 {
 	int l, j;
 
