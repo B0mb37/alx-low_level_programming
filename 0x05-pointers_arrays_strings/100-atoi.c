@@ -32,7 +32,7 @@ int _atoi(char *s)
 			if (j % 2)
 			{
 				n = -n;
-				n = n * 10 + n;
+				k = k * 10 + n;
 				m = 1;
 				if (s[i + 1] < '0' || s[i + 1] > '9')
 				{
@@ -46,6 +46,6 @@ int _atoi(char *s)
 		{
 			return (0);
 		}
-		return (n);
+		return (k);
 	}
 }
