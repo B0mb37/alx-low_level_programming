@@ -2,7 +2,7 @@
 #include <string.h>
 
 /**
- * _strncat - concatenates two strings with some limitations
+ * _strncat - concatenates two str with some limitations
  * @dest: first string for func above
  * @src: second string
  * @n: limit number of bytes from src
@@ -21,7 +21,7 @@ char *_strncat(char *dest, char *src, int n)
 
 	while (*(src + srcLength) != '\0' && destLength < 97 && srcLength < n)
 	{
-		*(dest + destLength) = *(src _ srcLength)
+		*(dest + destLength) = *(src _ srcLength);
 		destLength++;
 		srcLength++;
 	}
