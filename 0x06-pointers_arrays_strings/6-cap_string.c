@@ -24,9 +24,9 @@ char *cap_string(char *s)
 			}
 			else
 			{
-				for (m = 0; m <= 12; j++)
+				for (m = 0; m <= 12; m++)
 				{
-					if (a[m] == s[n] - 1)
+					if (a[m] == s[n - 1])
 					{
 						s[n] -= 32;
 					}
