@@ -3,8 +3,8 @@
 
 /**
  * rot13 - letter subscription cipher
- * @n: string pointer passed into funct
- * Return: n (encoded message)
+ * @s: string pointer passed into funct
+ * Return: s (encoded message)
  */
 
 char *rot13(char *s)
@@ -13,6 +13,7 @@ char *rot13(char *s)
 
 	char normData[] = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
 	char rotData[] = "NOPQRSTUVWXYZABCDEFGHIJKLMnopqrstuvwxyzabcdefghijklm";
+
 	for (i = 0; s[i] != '\0'; i++)
 	{
 		for (j = 0; j < 52; j++)
