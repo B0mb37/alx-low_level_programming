@@ -1,10 +1,5 @@
 #include <stdio.h>
 
-/**
- * main - prints string with updated value
- * Return: 0 (success)
- */
-
 int main(void)
 {
 	int n;
