@@ -4,8 +4,8 @@
 /**
  * _strspn - funct that gets length of prefix substring
  * @s: first value
- * @accept: secong variable
- * Return: value (bytes from s with bytes from accept)
+ * @accept: second variable
+ * Return: val (bytes from s with bytes from accept)
  */
 
 unsigned int _strspn(char *s, char *accept)
