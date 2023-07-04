@@ -3,7 +3,7 @@
 
 /**
  * _strspn - funct that gets length of prefix substring
- * @s: first value
+ * @s: first value into func
  * @accept: second variable
  * Return: val (bytes from s with bytes from accept)
  */
@@ -20,7 +20,7 @@ unsigned int _strspn(char *s, char *accept)
 
 		for (j = 0; accept[j] != '\0'; j++)
 		{
-			if accept[j] == s[i]
+			if (accept[j] == s[i])
 			{
 				val++;
 				check = 1;
