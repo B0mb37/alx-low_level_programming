@@ -10,10 +10,7 @@
 
 void print_diagsums(int *a, int size)
 {
-	int i, j, firstSum, secondSum;
-
-	firstSum = 0;
-	secondSum = 0;
+	int i, j, firstSum = 0, secondSum = 0;
 
 	for (i = 0; i < size * size; i += size + 1)
 	{
@@ -21,6 +18,6 @@ void print_diagsums(int *a, int size)
 	}
 
 	for (j = size - 1; j < size * size - size + 1; j += size - 1)
-	secondSum += a[n];
+		secondSum += a[n];
 	printf("%d, %d\n", firstSum, secondSum);
 }
