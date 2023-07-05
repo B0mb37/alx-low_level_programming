@@ -10,19 +10,19 @@ int _sqrt_recursion(int n)
 {
 	int o;
 
-	o = sq_rt(n, 1);
+	o = _sqrt(n, 1);
 
 	return (o);
 }
 
 /**
- * sq_rt - Calculates natural square root
+ * _sqrt - Calculates natural square root
  * @n: number to calculate square rooot of
  * @p: number for iteration
  * Return: q (natural square root)
  */
 
-int sq_rt(int n, int p)
+int _sqrt(int n, int p)
 {
 	int q;
 
@@ -33,7 +33,7 @@ int sq_rt(int n, int p)
 	else if (sq > n)
 		return (-1);
 
-	q = sq_rt(n, p + 1);
+	q = _sqrt(n, p + 1);
 
 	return (q);
 }
