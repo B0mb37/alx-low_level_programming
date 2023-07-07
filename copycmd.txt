@@ -1,0 +1,1 @@
+find ./0x05-pointers_arrays_strings ./0x06-pointers_arrays_strings ./0x07-pointers_arrays_strings -type f \( -name '2-*' -o -name '3-*' -o -name '4-*' \) -exec cp {} 0x09-static_libraries \;
