@@ -30,7 +30,7 @@ int comparison(char *s, int n, int o)
 		if (n == o || n == o + 1)
 			return (1);
 
-		return (0 + comparison(s, n++, o--));
+		return (0 + comparison(s, n + 1, o - 1));
 	}
 	return (0);
 }
@@ -45,5 +45,6 @@ int strlen_(char *s)
 {
 	if (*s == '\0')
 		return (0);
-	return (1 + strlen_(s++));
+	else
+		return (1 + strlen_(s + 1));
 }
