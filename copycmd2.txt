@@ -1,0 +1,1 @@
+find . -type f -name '_putchar.c' -exec cp {} 0x09-static_libraries \;
