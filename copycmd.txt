@@ -1,1 +1,3 @@
-find ./0x05-pointers_arrays_strings ./0x06-pointers_arrays_strings ./0x07-pointers_arrays_strings -type f \( -name '2-*' -o -name '3-*' -o -name '4-*' \) -exec cp {} 0x09-static_libraries \;
+find ./0x05-pointers_arrays_strings ./0x06-pointers_arrays_strings ./0x07-pointers_arrays_strings -type f \( -name '2-*' -o -name '3-*' \) -exec cp {} 0x09-static_libraries \;
+
+find . -type f \( -o -name '4-isalpha.c' -o -name '4-strpbrk.c' -o -name '5-strstr.c' -o -name '6-abs.c' -o -name '9-strcpy.c' \) -exec cp {} 0x09-static_libraries \;
