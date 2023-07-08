@@ -14,17 +14,16 @@ int main(int argc, char *argv[])
 {
 	int i;
 	unsigned int j, sum = 0;
-	char *k;
 
 	if (argc > 1)
 	{
 		for (i = 1; i < argc; i++)
 		{
-			k = argv[j];
+			char *k = argv[i];
 
 			for (j = 0; j < strlen(k); j++)
 			{
-				if (k[j] < 48 || k[j] > 57)
+				if (k[j] < '0' || k[j] > '9')
 				{
 					printf("Error\n");
 					return (1);
@@ -32,7 +31,6 @@ int main(int argc, char *argv[])
 			}
 
 			sum += atoi(k);
-			k++;
 		}
 
 		printf("%d\n", sum);
