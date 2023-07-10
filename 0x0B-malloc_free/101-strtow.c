@@ -65,15 +65,17 @@ char **strtow(char *str)
 
 int word_count(char *str)
 {
-	int index, words = 0;
+	int index, words = 0, is_word = 0;
 	int len = strlen(str);
 
 	for (index = 0; index < len; index++)
 	{
 		if (str[index] == ' ')
+			is_word = 0;
+		else if (!is_word)
 		{
 			words++;
-			index += word_len(str + index);
+			is_word = 1;
 		}
 	}
 	return (words);
