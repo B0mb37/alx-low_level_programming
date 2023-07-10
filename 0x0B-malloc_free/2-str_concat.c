@@ -11,7 +11,7 @@
 char *str_concat(char *s1, char *s2)
 {
 	char *ptr;
-	int len1 = 0, len2 = 0;
+	int lens = 0, len1 = 0, len2 = 0, i = 0;
 
 	s1 = (s1 == NULL) ? "" : s1;
 	s2 = (s2 == NULL) ? "" : s2;
@@ -35,7 +35,7 @@ char *str_concat(char *s1, char *s2)
 		if (i >= lens)
 		{
 			ptr[i] = s2[len2];
-			lens2++;
+			len2++;
 		}
 		i++;
 	}
