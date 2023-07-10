@@ -27,7 +27,7 @@ char *str_concat(char *s1, char *s2)
 	if (ptr == NULL)
 		return (NULL);
 
-	lens2 = 0;
+	len2 = 0;
 
 	while (i < lens)
 	{
