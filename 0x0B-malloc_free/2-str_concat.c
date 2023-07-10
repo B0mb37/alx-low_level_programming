@@ -32,7 +32,7 @@ char *str_concat(char *s1, char *s2)
 	while (i < lens)
 	{
 		if (i <= len1)
-			ptr[i] = s2[i];
+			ptr[i] = s1[i];
 
 		if (i >= len1)
 		{
