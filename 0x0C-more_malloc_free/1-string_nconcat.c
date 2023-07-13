@@ -5,7 +5,7 @@
  * @s1: first string to be concatenated
  * @s2: second string to be concatenated
  * @n: first number of bytees in s1 to be included
- * Return: ptr (pointer to concatenated string
+ * Return: ptr (pointer to concatenated string)
  */
 
 char *string_nconcat(char *s1, char *s2, unsigned int n)
