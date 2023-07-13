@@ -7,7 +7,7 @@
  * Return: ptr (pointer to allocated memory)
  */
 
-void *malloc_checked(unsignes int b)
+void *malloc_checked(unsigned int b)
 {
 	void *ptr;
 
