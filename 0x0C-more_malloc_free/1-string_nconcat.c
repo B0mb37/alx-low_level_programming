@@ -33,7 +33,7 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	memcpy(ptr, s1, len1);
 	memcpy(ptr + len1, s2, n < len2 ? n : len2);
 
-	ptr[i] = '\0';
+	ptr[l] = '\0';
 
 	return (ptr);
 }
