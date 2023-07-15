@@ -29,7 +29,7 @@ void error(void)
 int main(int argc, char *argv[])
 {
 	if (argc != 3 || !isdigit(*argv[1]) || !isdigit(*argv[2]))
-		errors();
+		error();
 
 	multiply_numbers(argv[1], argv[2]);
 	return (0);
@@ -61,7 +61,7 @@ void multiply_numbers(const char *s1, const char *s2)
 
 		for (len2 -= 1; len2 >= 0; len2--)
 		{
-			digit2 = s[len2] - '0';
+			digit2 = s2[len2] - '0';
 			carry += result[len1 + len2 + 1] + (digit1 * digit2);
 			carry /= 10;
 		}
@@ -73,7 +73,7 @@ void multiply_numbers(const char *s1, const char *s2)
 		if (result[i])
 			a = 1;
 		if (a)
-			_putchar(result[i] + '0';
+			_putchar(result[i] + '0');
 	}
 	if (!a)
 		_putchar('0');
