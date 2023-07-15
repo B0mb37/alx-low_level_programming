@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stddef.h>
 
 /**
  * _realloc - func that reallocates mem block using malloc and free
