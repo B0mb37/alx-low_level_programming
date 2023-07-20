@@ -3,7 +3,7 @@
 /**
  * sum_them_all - adds all the parameters
  * @n: named const n
- * Return: sum or 0
+ * Return: sum or 0 (sum value or zero)
  */
 
 int sum_them_all(const unsigned int n, ...)
