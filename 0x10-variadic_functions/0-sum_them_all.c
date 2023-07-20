@@ -2,7 +2,7 @@
 
 /**
  * sum_them_all - adds all the parameters
- * @n: named const n
+ * @n: number of ints
  * Return: sum or 0 (sum value or zero)
  */
 
