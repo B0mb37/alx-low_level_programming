@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 
 /*GCC constructor attribute*/
 
@@ -10,6 +11,5 @@ void first(void) __attribute__ ((constructor));
 
 void first(void)
 {
-	puts("You're beat! and yet, you must allow, ");
-	puts("I bore my house upon my back!");
+	printf("You're beat! and yet, you must allow, \nI bore my house upon my back!\n");
 }
