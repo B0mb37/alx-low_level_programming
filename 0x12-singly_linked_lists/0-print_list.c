@@ -1,4 +1,5 @@
 #include "lists.h"
+#include <stddef.h>
 
 size_t power(size_t base, size_t power);
 
@@ -24,19 +25,19 @@ size_t print_list(const list_t *h)
 
 			while (length != 0)
 			{
-				len /= 10;
+				length /= 10;
 				numDigits++;
 			}
 			length = h->len;
 			while (numDigits > 0)
 			{
 				_putchar('0' + (length / power(10, numDigits - 1)));
-				len %= power(10, numDigits - 1);
+				length %= power(10, numDigits - 1);
 				numDigits--;
 			}
 		}
 		_putchar(']');
-		_putcahr(' ');
+		_putchar(' ');
 
 		if (h->str)
 		{
