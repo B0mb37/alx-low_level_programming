@@ -18,14 +18,14 @@ list_t *add_node(list_t **head, const char *str)
 
 		if (newNode == NULL)
 			return (NULL);
-		newNode->str = strdup(str);
+		newNode->str = _strdup(str);
 
 		if (newNode->str == NULL)
 		{
 			free(newNode);
 			return (NULL);
 		}
-		newNode->len = strlen(str);/*Lem of duplicate string*/
+		newNode->len = _strlen(str);/*Lem of duplicate string*/
 		newNode->next = *head;
 		*head = newNode;
 
