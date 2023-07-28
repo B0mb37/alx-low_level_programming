@@ -33,24 +33,3 @@ list_t *add_node(list_t **head, const char *str)
 	}
 	return (NULL);
 }
-
-/**
- * _strdup - duplicates string in dynamic memory
- * @str: string to be duplicated
- * Return: duplicate (pointer to duplicated string) or NULL
- *
-
-char *_strdup(const char *str)
-{
-	if (str == NULL)
-		return (NULL);
-
-	size_t length = strlen(str);
-	char *duplicate = malloc((length + 1) * sizeof(char));
-
-	if (duplicate == NULL)
-		return (NULL);
-	strcpy(duplicate, str);
-	return (duplicate);
-}
-*/
