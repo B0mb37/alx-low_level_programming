@@ -6,6 +6,7 @@
 #include <stdio.h>
 #include <unistd.h>
 #include <stdio.h>
+#include <string.h>
 
 /**
  * struct list_s - singly linked list
@@ -23,7 +24,7 @@ typedef struct list_s
 
 size_t power(size_t base, size_t power);
 size_t print_list(const list_t *n);
-void _putchar(char c);
+int _putchar(char c);
 int _strlen(char *str);
 size_t list_len(const list_t *h);
 char *_strdup(const char *str);
