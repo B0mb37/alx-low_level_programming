@@ -1,5 +1,5 @@
 #include "lists.h"
-#include <stdlib.h>
+#include <unistd.h>
 
 /**
  * _putchar - writes character to std output
