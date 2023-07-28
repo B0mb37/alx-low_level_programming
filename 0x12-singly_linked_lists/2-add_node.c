@@ -2,7 +2,7 @@
 #include <string.h>
 #include <stdlib.h>
 
-char *_strdup(const char *str);
+/*char *_strdup(const char *str);*/
 
 /**
  * add_node - func that adds new node at beginning of  a list
@@ -18,14 +18,14 @@ list_t *add_node(list_t **head, const char *str)
 
 		if (newNode == NULL)
 			return (NULL);
-		newNode->str = _strdup(str);
+		newNode->str = strdup(str);
 
 		if (newNode->str == NULL)
 		{
 			free(newNode);
 			return (NULL);
 		}
-		newNode->len = _strlen(str);/*Lem of duplicate string*/
+		newNode->len = strlen(str);/*Lem of duplicate string*/
 		newNode->next = *head;
 		*head = newNode;
 
@@ -38,7 +38,7 @@ list_t *add_node(list_t **head, const char *str)
  * _strdup - duplicates string in dynamic memory
  * @str: string to be duplicated
  * Return: duplicate (pointer to duplicated string) or NULL
- */
+ *
 
 char *_strdup(const char *str)
 {
@@ -46,11 +46,11 @@ char *_strdup(const char *str)
 		return (NULL);
 
 	size_t length = strlen(str);
-	char *duplicate = malloc((len + 1) * sizeof(char));
+	char *duplicate = malloc((length + 1) * sizeof(char));
 
 	if (duplicate == NULL)
 		return (NULL);
 	strcpy(duplicate, str);
 	return (duplicate);
 }
-
+*/
