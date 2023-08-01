@@ -5,7 +5,7 @@
  * @head: pointer to the head of linked list
  * Retourn: void
  */
-void free_listint(listint_T *head)
+void free_listint(listint_t *head)
 {
 	while (head != NULL)
 	{
