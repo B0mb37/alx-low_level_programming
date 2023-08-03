@@ -21,7 +21,7 @@ size_t free_listint_safe(listint_t **h)
 		*h = temp;
 		nodes++;
 
-		if (diff <=0)
+		if (diff <= 0)
 			break;
 	}
 	return (nodes);
