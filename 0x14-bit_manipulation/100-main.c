@@ -8,7 +8,7 @@ int main(void)
 {
 	int n;
 
-	n = get_endainness();
+	n = get_endianness();
 	if (n != 0)
 		printf("Little Endain\n");
 	else
