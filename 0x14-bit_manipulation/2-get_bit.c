@@ -9,7 +9,7 @@
 
 int get_bit(unsigned long int n, unsigned int index)
 {
-	unsigned int bits = sizeif(unsigned long int) * 8;
+	unsigned int bits = sizeof(unsigned long int) * 8;
 	int value;
 	unsigned long int mask = 1UL << index;
 

@@ -12,7 +12,7 @@ void print_binary(unsigned long int n)
 	int digits = 0;
 	unsigned long int mask = 1UL << (bits - 1);
 
-	while (mas > 0)
+	while (mask > 0)
 	{
 		if (n & mask)
 			_putchar('1');
