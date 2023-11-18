@@ -38,12 +38,17 @@ int main(int argc, char *argv[])
 		printf("Error\n");
 	else {
 		int cents = atoi(argv[1]);
-		int quaters, dimes, nickels, pennies, total;
 
-		calcCoins(cents, &quaters, &dimes, &nickels, &pennies);
-		total = quaters + dimes + nickels + pennies;
+		if (cents < 0)
+			printf("0\n");
+		else {
+			int quaters, dimes, nickels, pennies, total;
 
-		printf("%d\n", total);
+			calcCoins(cents, &quaters, &dimes, &nickels, &pennies);
+			total = quaters + dimes + nickels + pennies;
+
+			printf("%d\n", total);
+		}
 	}
 	return (0);
 }
