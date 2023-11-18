@@ -1,4 +1,6 @@
 #include "main.h"
+#include <stdio.h>
+#include <stdlib.h>
 
 /**
  * calcCoins - gets the number of coins
@@ -30,12 +32,12 @@ void calcCoins(int cents, int *quaters, int *dimes, int *nickels, int *pennies)
  * Return: 0(success)
  */
 
-int main(int argc, int *argv[])
+int main(int argc, char *argv[])
 {
-	if (argc !== 2)
+	if (argc != 2)
 		printf("Error\n");
 	else {
-		int cents = argv[argc];
+		int cents = atoi(argv[1]);
 		int quaters, dimes, nickels, pennies, total;
 
 		calcCoins(cents, &quaters, &dimes, &nickels, &pennies);
@@ -43,4 +45,5 @@ int main(int argc, int *argv[])
 
 		printf("%d\n", total);
 	}
+	return (0);
 }
