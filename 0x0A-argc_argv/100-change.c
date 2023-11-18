@@ -34,22 +34,23 @@ void calcCoins(int cents, int *quaters, int *dimes, int *nickels, int *pennies)
 
 int main(int argc, char *argv[])
 {
-	if (argc != 2){
+	if (argc != 2)
+	{
 		printf("Error\n");
 		return (1);
-	} else {
-		int cents = atoi(argv[1]);
+	}
+	int cents = atoi(argv[1]);
 
-		if (cents < 0)
-			printf("0\n");
-		else {
-			int quaters, dimes, nickels, pennies, total;
+	if (cents < 0)
+		printf("0\n");
+	else
+	{
+		int quaters, dimes, nickels, pennies, total;
 
-			calcCoins(cents, &quaters, &dimes, &nickels, &pennies);
-			total = quaters + dimes + nickels + pennies;
+		calcCoins(cents, &quaters, &dimes, &nickels, &pennies);
+		total = quaters + dimes + nickels + pennies;
 
-			printf("%d\n", total);
-		}
+		printf("%d\n", total);
 	}
 	return (0);
 }
