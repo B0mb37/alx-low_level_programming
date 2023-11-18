@@ -34,9 +34,10 @@ void calcCoins(int cents, int *quaters, int *dimes, int *nickels, int *pennies)
 
 int main(int argc, char *argv[])
 {
-	if (argc != 2)
+	if (argc != 2){
 		printf("Error\n");
-	else {
+		return (1);
+	} else {
 		int cents = atoi(argv[1]);
 
 		if (cents < 0)
